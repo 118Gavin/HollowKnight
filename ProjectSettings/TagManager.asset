@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Sword
+  - Ground
+  - CanDesrotyRoad
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Enemy
+  - Sword
+  - Ground
+  - Wall
+  - EnemyAttackRange
+  - PostProcessing
+  - Coin
+  - CoinTrigger
+  - FallingRock
+  - DamagedRoad
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: GroundBack_3
+    uniqueID: 25322747
+    locked: 0
+  - name: GroundBack_2
+    uniqueID: 829962227
+    locked: 0
+  - name: GroundBack_1
+    uniqueID: 810983619
+    locked: 0
+  - name: LayerMask
+    uniqueID: 4060990859
+    locked: 0
+  - name: Fog_Back_2
+    uniqueID: 891946591
+    locked: 0
+  - name: Fog_Back_1
+    uniqueID: 1512854737
+    locked: 0
+  - name: Ground_1
+    uniqueID: 279225841
+    locked: 0
+  - name: Ground
+    uniqueID: 3825247487
+    locked: 0
+  - name: Player
+    uniqueID: 1379276653
+    locked: 0
+  - name: GroundFront_1
+    uniqueID: 4248175803
+    locked: 0
+  - name: GroundFront_2
+    uniqueID: 2365057523
+    locked: 0
+  - name: Fog_Front_1
+    uniqueID: 2830659647
+    locked: 0
+  - name: UI
+    uniqueID: 399842279
+    locked: 0

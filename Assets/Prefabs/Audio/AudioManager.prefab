@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1159797769257128953
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1159797769257128934}
+  - component: {fileID: 1159797769257128935}
+  - component: {fileID: -3537425148090746374}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1159797769257128934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159797769257128953}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.818702, y: -2.4306808, z: 0.060045294}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1159797769257128935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159797769257128953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57ce26a43ab51dc4b99a5fa031881f95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - audioClip: {fileID: 8300000, guid: e501808e0199dc94cb275aa67fa725c7, type: 3}
+    audioName: SquareMusic
+    volume: 1
+    pitch: 1
+    loop: 1
+    isBGM: 1
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 61c76c1b40a94704889e3e4fc3e1b381, type: 3}
+    audioName: DashMusic
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: ce2abc53bdc2d6145a070b4f15171a7d, type: 3}
+    audioName: FirstAttackMusic
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 8781b57efc315124691b0f3911fb262e, type: 3}
+    audioName: SecondAttackMusic
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 648e0af3d7b918549b58e745bff5e5d9, type: 3}
+    audioName: UpAndDownAttackMusic
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 2ac3ff039b189174d8b2eb0a80346aba, type: 3}
+    audioName: RunMusic
+    volume: 1
+    pitch: 1
+    loop: 1
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: ea2b027c6b96a254f825b9249d0e575a, type: 3}
+    audioName: JumpMusic
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: e6c565de30ec46849a35e3b82e59f142, type: 3}
+    audioName: LandMusic
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: b8458ff7823c86f469c6ca6d04928286, type: 3}
+    audioName: FallingMusic
+    volume: 1
+    pitch: 1
+    loop: 1
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 8817654dfe8b1404b8a60e80ce2e77a3, type: 3}
+    audioName: DoubleJumpMusic
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: d1f20b10d7c9d0742a99aa5abfd2e066, type: 3}
+    audioName: WallJumpMusic
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: b4ca628e3489e4645ab89d025a72264d, type: 3}
+    audioName: WallSlideMusic
+    volume: 1
+    pitch: 1
+    loop: 1
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 23675d4c4f344284c812933402989dfe, type: 3}
+    audioName: HeroDamageMusic
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 84dfa719858ab844684997fbe61fee19, type: 3}
+    audioName: HitWallMusic
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 781e27b93ee7bc047846548f1aa7c812, type: 3}
+    audioName: EnemyDamageMusic
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 266290439d6c102499754258fc69e340, type: 3}
+    audioName: EnemyDeadMusic
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 1328cf6125135e54ea25f4af95b9dbb9, type: 3}
+    audioName: GrassCutMusic1
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 14f4a34067d66fb4fa68a3d098719a17, type: 3}
+    audioName: GrassCutMusic1
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 91a3c87e93d770349a2713fc5640ed01, type: 3}
+    audioName: RockHitMusic1
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: c1870767357b9fb4e8a589e14e5f60ba, type: 3}
+    audioName: RockHitMusic2
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 195793cd3ca0ec3428d136fd01347451, type: 3}
+    audioName: GetCoinMusic
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: e5865eb8c2c016847bfff8d527ad3328, type: 3}
+    audioName: DamagedRoadEndLongMusic
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 657fbeed833f8da498b2c76c8b50ccda, type: 3}
+    audioName: DamagedRoadEndSmallMusic
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 1a07f88088f1f814387f3a7dc15ef3e2, type: 3}
+    audioName: DamagedRoadEndMusic
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 47fb4815fa62ac34793cf1fee317375f, type: 3}
+    audioName: TitleMusic
+    volume: 1
+    pitch: 1
+    loop: 1
+    isBGM: 1
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 11401c6cb8be2154eb3e5d8931bdc642, type: 3}
+    audioName: ButtonClickMusic
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: b0008c6a4d9382249bddb0dfeaffa8ec, type: 3}
+    audioName: ButtonEnterMusic
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGM: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 23675d4c4f344284c812933402989dfe, type: 3}
+    audioName: PlayerDamagedMusic
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGM: 0
+    audioSource: {fileID: 0}
+--- !u!114 &-3537425148090746374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159797769257128953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf9d88ef47c5534cbfc44111d444eb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
